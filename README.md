@@ -45,6 +45,9 @@ EmployeeApp/
 ├── README.md
 ```
 
+![image](https://github.com/user-attachments/assets/c79cf11f-715b-4f5f-b0b3-9d102d5cdc66)
+
+
 ---
 
 ##  Setup Instructions
@@ -74,6 +77,10 @@ EmployeeApp/
    - Add the Payara Server to NetBeans (if not already configured).
    - Right-click the project > *Run*
    - Access the app at: [http://localhost:8080/EmployeeApp](http://localhost:8080/EmployeeApp)
+     
+  
+     ![image](https://github.com/user-attachments/assets/e8a047c4-fbb1-4fb1-974d-2c40a2fdb845)
+
 
 ---
 
