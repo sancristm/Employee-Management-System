@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<beans xmlns="https://jakarta.ee/xml/ns/jakartaee"
+       version="6.0"
+       bean-discovery-mode="all">
+</beans>

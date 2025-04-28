@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>Employee Management</title>
+</h:head>
+<h:body>
+    <h:form>
+        
+         <h1>Employee Management System</h1>
+        
+        <p:growl id="msgs" showDetail="true" />
+
+  
+        <p:dataTable value="#{employeeBean.employees}" var="emp" editable="true" style="margin-top:20px" rowKey="#{emp.id}">
+            <p:column headerText="ID">
+                <h:outputText value="#{emp.id}" />
+            </p:column>
+            <p:column headerText="First Name">
+                <h:outputText value="#{emp.firstName}" />
+            </p:column>
+            <p:column headerText="Last Name">
+                <h:outputText value="#{emp.lastName}" />
+            </p:column>
+            <p:column headerText="Email">
+                <h:outputText value="#{emp.email}" />
+            </p:column>
+            <p:column headerText="Department">
+                <h:outputText value="#{emp.department}" />
+            </p:column>
+            <p:column headerText="Salary">
+                <h:outputText value="#{emp.salary}" />
+            </p:column>
+            <p:column headerText="Actions">
+                <p:commandButton value="Edit" action="#{employeeBean.edit(emp)}" update="@form" />
+                <p:commandButton value="Delete" action="#{employeeBean.delete(emp)}" update="@form" />
+            </p:column>
+        </p:dataTable>
+        <!-- Add Employee Button -->
+        <p:commandButton value="Add Employee"
+                         action="addEmployee.xhtml?faces-redirect=true"
+                         process="@this"
+                         update="@none" />
+    </h:form>
+</h:body>
+</html>
