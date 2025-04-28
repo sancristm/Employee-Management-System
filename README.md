@@ -72,7 +72,7 @@ EmployeeApp/
 4. **Deploy to Payara Server**
 
    - Add the Payara Server to NetBeans (if not already configured).
-   - Right-click the project > *Run* or *Deploy*.
+   - Right-click the project > *Run*
    - Access the app at: [http://localhost:8080/EmployeeApp](http://localhost:8080/EmployeeApp)
 
 ---
@@ -85,15 +85,19 @@ To run the application as new or reset it completely:
    ```sql
    DROP DATABASE IF EXISTS employeedb;
    ```
+   you can an as well populate your database with data just incase or for testing purposes
 
-2. **Recreate the Database and Table**
+   ![image](https://github.com/user-attachments/assets/c70e3f16-b26d-4f7d-8892-4efbd95a624e)
+
+
+3. **Recreate the Database and Table**
    ```sql
    CREATE DATABASE employeedb;
    USE employeedb;
    -- Then run the contents of employee_schema.sql
    ```
 
-3. **(Optional) Clear Server Deployment Cache**
+4. **(Optional) Clear Server Deployment Cache**
    - In NetBeans, stop the Payara server.
    - Clean and build the project: `Right-click > Clean and Build`.
    - Redeploy the project to ensure all changes take effect.
