@@ -137,15 +137,25 @@ Add employee form:
 
   ![image](https://github.com/user-attachments/assets/59649e26-3145-49f7-850f-777aca0b697f)
   
+  
 - After (on save) redirects to the index/dashboard
+
+  
   ![image](https://github.com/user-attachments/assets/1fdc9e7d-5ded-4cda-b6b2-ddd35e6d7e6a)
 
 
   
 
-Delete Employee |
+Delete Employee( deleates a record)
+- deletes the record from the table as well as in the database
+  ### after deletion
+  ![image](https://github.com/user-attachments/assets/a40923bf-3387-4ff8-b066-8cc7cc89ae0a)
 
-Database |
+  
+  ![image](https://github.com/user-attachments/assets/065ef69b-11f7-47f0-9be2-fbb849cef986)
+
+
+
 
 
 ---
