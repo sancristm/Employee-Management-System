@@ -101,6 +101,10 @@ To run the application as new or reset it completely:
    - In NetBeans, stop the Payara server.
    - Clean and build the project: `Right-click > Clean and Build`.
    - Redeploy the project to ensure all changes take effect.
+  
+
+     
+
 
 ---
 
@@ -108,8 +112,23 @@ To run the application as new or reset it completely:
 
 | Main Table | 
 
+The dashboard after the data has be pupulated in an initial state "no records" massaege should be displayed with an empty table
+
+![image](https://github.com/user-attachments/assets/e4bf239c-c97f-4e44-9f21-8c478390fb49)
+
+
 
 Add Employee | 
+Add employee form: 
+- Adds a an employee to the database and redirects to the index page
+- The form has input validations when the user does not enter the require fields
+- the form needs a revamp in the near future when it come to styling, validations messages output(kinda messy right now) etc 
+
+![image](https://github.com/user-attachments/assets/57efe202-aabd-43d3-a171-c71fdbc99425)
+
+![image](https://github.com/user-attachments/assets/c33bd064-b88a-4583-8de6-2523e0cd6c48)
+
+
 
 Edit Employee | 
 
