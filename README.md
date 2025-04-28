@@ -130,7 +130,18 @@ Add employee form:
 
 
 
-Edit Employee | 
+***Edit Employee 
+- onclick event redirects to the edit form
+- the form pops up populated with the fields to edit
+- Before Editing
+
+  ![image](https://github.com/user-attachments/assets/59649e26-3145-49f7-850f-777aca0b697f)
+  
+- After (on save) redirects to the index/dashboard
+  ![image](https://github.com/user-attachments/assets/1fdc9e7d-5ded-4cda-b6b2-ddd35e6d7e6a)
+
+
+  
 
 Delete Employee |
 
